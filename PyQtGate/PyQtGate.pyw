@@ -11,7 +11,7 @@ import serial
 
 from PyQt5.QtCore import *
 from PyQt5.QtGui import *
-from PyQt5.QtWidgets import QApplication
+from PyQt5.QtWidgets import QApplication, QDialog, QMessageBox, QPushButton, QTableWidgetItem
 import pyqtgraph as pg
 from User_interface import *
 import ardcomm
